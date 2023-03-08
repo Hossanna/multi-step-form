@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 3% 15%;
+    background-color: hsl(206, 94%, 87%);
+}
+
+.container{
+    padding: 2%;
+    height: 600px;
+    margin-bottom: 1%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.flex{
+    display: flex;
+}
+.flexx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside{
+    width: 30%;
+    height: 100vh;
+    padding: 5% ;
+    color: white;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
+}
+
+main{
+    width: 70%;
+    padding: 3% 10%;
+}
+.main-5{
+    color: hsl(231, 11%, 63%);
+    text-align: center;
+    margin: auto;
+}
+
+form{
+    margin: 5% 0;
+}
+
+.label{
+    margin-top: 5%;
+}
+
+.input{
+    width: 100%;
+    margin-top: 2%;
+    padding: 3%;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+input::placeholder, main .info{
+    color: hsl(231, 11%, 63%);
+}
+
+.button{
+    background-color: hsl(213, 96%, 18%);
+    width: 22%;
+    padding: 3%;
+    margin-top: 25%;
+    margin-left: 78%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.nav-items{
+    margin-bottom: 20%;
+    width: 100%;
+}
+.number{
+    border: 1px solid white;
+    color: white;
+    padding: 5% 8% 4%;
+    border-radius: 50%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+.active{
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a span{
+    color: hsl(228, 100%, 84%);
+    font-size: .8em;
+}
+.step{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1em !important;
+}
+h1, .label label{
+    color: hsl(213, 96%, 18%);
+}
+h1{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+.buttons{
+    width: 85%;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.btn{
+    padding: 25% 35%;
+    margin-top: 20%;
+    border-radius: 8px;
+
+}
+.btn1{
+    background-color: white;
+    color: grey;
+    border: none;
+    min-width: max-content;
+}
+.btn2{
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    min-width: max-content;
+    border: none;
+}
+.btn_light{
+    background-color: hsl(243, 100%, 62%);
+}
+
+.h3{
+    color: hsl(213, 96%, 18%);
+    font-size: 1.1em;
+    font-weight: 800;
+}
+/* input [type] */
+
+.div-checkbox{
+    padding: 5%;
+    margin-top: 4%;
+    width: 100%;
+    /* justify-content: space-between; */
+    border-radius: 8px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.grey-area {
+    width: 95%;
+    padding: 5%;
+    margin: 10% 0 5%;
+    border-radius: 10px;
+    min-height: max-content;
+    background-color: hsl(217, 100%, 97%);
+}
+.flex-grey{
+    border-top: 2px solid hsl(229deg 24% 87% / 46%);
+    padding-top: 5%;
+    color: hsl(231, 11%, 63%);
+}
+.grey-area .flex{
+    justify-content: space-between;
+
+}
+.grey{
+    padding-bottom: 5%;
+    font-weight: 700;
+    color: hsl(213, 96%, 18%);
+}
+.grey a{
+    color: hsl(231, 11%, 63%);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.flex-grey1{
+    margin-bottom: 2%;
+}
+
+.total{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin-bottom: 25%;
+}
+.total1{
+    color: hsl(231, 11%, 63%);
+}
+.total2{
+    color: hsl(243, 100%, 62%);
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+/* .a{
+    color: hsl(213, 96%, 18%);
+    color:  hsl(243, 100%, 62%);
+    color: hsl(228, 100%, 84%);
+    color: hsl(206, 94%, 87%);
+   color: hsl(354, 84%, 57%);
+} */
+
+.containerr{
+    width: 90%;
+}
+.box{
+    width: 25%;
+    height: fit-content;
+    margin: 2%;
+    border: 1px solid black;
+    padding: 2%;
+}
