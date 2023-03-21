@@ -8,6 +8,36 @@ body{
     background-color: hsl(206, 94%, 87%);
 }
 
+toggleButton{ 
+    background-color: hsl(213, 96%, 18%);
+    width: 40px; 
+    min-width: 40px; 
+    display: block; 
+    padding: 3px; 
+    padding-left: 5px;
+    border-radius: 60px; 
+    transition: 0.5s; 
+    cursor: pointer;
+} 
+
+.toggle{
+    width: 95%;
+    padding: 3% 10vw;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(245, 244, 244);
+}
+
+toggleSwitchCircle { 
+     display: block; 
+     width: 15px; 
+     height: 15px; 
+     background-color: white;
+     border-radius: 50%; 
+     transition: 0.5s; 
+   }
+
+
 .container{
     padding: 2%;
     height: 600px;
@@ -23,6 +53,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.flexxx{
+    display: flex;
+    flex-direction: column;
 }
 
 aside{
@@ -76,7 +110,7 @@ input::placeholder, main .info{
     color: white;
     border: none;
     border-radius: 8px;
-
+    cursor: pointer;
 }
 
 .nav-items{
@@ -130,7 +164,7 @@ h1{
 }
 .btn1{
     background-color: white;
-    color: grey;
+    color: hsl(231, 11%, 63%);
     border: none;
     min-width: max-content;
 }
@@ -152,12 +186,31 @@ h1{
 /* input [type] */
 
 .div-checkbox{
-    padding: 5%;
+    padding: 4% 5%;
     margin-top: 4%;
     width: 100%;
-    /* justify-content: space-between; */
-    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
     border: 1px solid hsl(229, 24%, 87%);
+}
+
+.checkbox-money{
+    color: hsl(243.11deg 100% 62.16%);
+}
+
+.checkbox-span{
+    color: hsl(231, 11%, 63%);
+
+}
+.check-div{
+    width: 80%;
+}
+
+input.checked{
+    margin-right: 5%;
+    width: 6%;
+    border-radius: 5px;
 }
 
 .grey-area {
@@ -200,7 +253,7 @@ h1{
     padding: 0 5%;
     margin-bottom: 25%;
 }
-.total1{
+.total1, .money{
     color: hsl(231, 11%, 63%);
 }
 .total2{
@@ -218,12 +271,39 @@ h1{
 } */
 
 .containerr{
-    width: 90%;
+    width: 100%;
 }
 .box{
-    width: 25%;
-    height: fit-content;
-    margin: 2%;
-    border: 1px solid black;
-    padding: 2%;
+    width: 30%;
+    height: 25vh;
+    margin: 10% 5% 10% 0;
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.box:hover{
+    border: 2px solid hsl(213, 96%, 18%);
+    background-color: rgb(245, 244, 244);
+}
+
+.box img{
+    width: 40%;
+}
+.month{
+    margin-right: 5%;
+    color: hsl(213, 96%, 18%);
+}
+.year{
+    margin-left: 5%;
+    color: hsl(231, 11%, 63%);
+}
+.heading{
+    color: hsl(213, 96%, 18%);
+    font-weight: 600;
+}
+
+.box span{
+    color: hsl(213, 96%, 18%);
+    font-size: .9em;
 }

@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style1.css">
+  <script src="js/script.js" defer></script>
+
   <title>Frontend Mentor | Multi-step form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -54,26 +56,40 @@
     
         <div class="flex containerr">
             <div class="flexx box">
-              <p class="heading">Arcade</p>
-              <p class="money">$9/mo</p>
+              <img src="./assets/images/icon-arcade.svg" alt="">
+              <div class="flexxx">
+                <p class="heading">Arcade</p>
+                <p id="nine" class="money">$9/mo</p>
+              </div>
             </div>
-            <div class="flexx box">  
-              <p class="heading">Advanced</p>
-              <p class="money">$12/mo</p>
+            <div class="flexx box"> 
+              <img src="./assets/images/icon-advanced.svg" alt=""> 
+              <div class="flexxx">
+                <p class="heading">Advanced</p>
+                <p id="twelve" class="money">$12/mo</p>
+              </div>
             </div>
             <div class="flexx box">
-              <p class="heading">Pro</p>
-              <p class="money">$15/mo</p>
+              <img src="./assets/images/icon-pro.svg" alt="">
+              <div class="flexxx">
+                <p class="heading">Pro</p>
+                <p id="fifteen" class="money">$15/mo</p>
+              </div>
             </div>
         </div>
 
-        Monthly
-        Yearly
+        <div class="flex toggle">
+          <span id="month" class="options month">Monthly</span>
+          <span id="toggle"></span>
+          <span id="year" class="options year">Yearly</span>
+        </div>
+        
+        
 
 
         <div class="flex buttons">
         
-          <a href="index1.html"><button class="btn1 btn">Go Back</button></a>
+          <a href="index.html"><button class="btn1 btn">Go Back</button></a>
           <a href="index3.html"><button class="btn2 btn">Next Step</button></a>
         </div>
     </main>
@@ -85,6 +101,10 @@
     
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Hossanna">Hosanna</a>.
   </div>
+
+  <script src="js/script.js" defer></script>
+
 </body>
+</html>
