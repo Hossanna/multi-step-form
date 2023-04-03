@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/responsiveness.css">
+
   <script src="js/script.js" defer></script>
 
   <title>Frontend Mentor | Multi-step form</title>
@@ -17,6 +19,24 @@
   </style>
 </head>
 <body>
+
+  <div class="aside-mobile">
+    <div class="nav">
+      <div class="nav-items">
+        <a href="index.html" class="number active">1</a>
+      </div>
+      <div class="nav-items"> 
+        <a href="index2.html" class="number">2</a>
+      </div>
+      <div class="nav-items">
+        <a href="index3.html" class="number">3</a>
+      </div>
+      <div class="nav-items">
+        <a href="index4.html" class="number active">4</a>
+      </div>
+    </div>
+  </div>
+
 
   <div class="container flex">
 
@@ -58,16 +78,16 @@
       <!-- Dynamically add subscription and add-on selections here -->
     
       <div class="grey-area">
-        <div class="flex grey">
+        <div class="flex mobile-flex grey">
           <p>Archade (Monthly) <br> <a href="index2.html">Change</a></p>
           <p>$9/mo</p>
         </div>
         <div class="flex-grey">
-          <div class="flex flex-grey1">
+          <div class="flex  mobile-flex flex-grey1">
             <p>Online service</p>
             <p>+$1/mo</p>
           </div>
-          <div class="flex">
+          <div class="flex mobile-flex">
             <p>Larger storage</p>
             <p>+$2/mo</p>
           </div>
@@ -80,7 +100,7 @@
     
      
 
-      <div class="flex buttons">
+      <div class="flex mobile-flex buttons">
         
         <a href="index3.html"><button class="btn1 btn">Go Back</button></a>
         <a href="index5.html"><button class="btn2 btn_light btn">Confirm</button></a>

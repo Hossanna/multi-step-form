@@ -70,6 +70,10 @@ aside{
     background-image: url("../assets/images/bg-sidebar-desktop.svg");
 }
 
+.aside-mobile{
+    display: none;
+}
+
 main{
     width: 70%;
     padding: 3% 10%;
@@ -103,7 +107,7 @@ input::placeholder, main .info{
 
 .button{
     background-color: hsl(213, 96%, 18%);
-    width: 22%;
+    width: fit-content;
     padding: 3%;
     margin-top: 25%;
     margin-left: 78%;
