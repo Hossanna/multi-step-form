@@ -8,6 +8,16 @@ body{
     background-color: hsl(206, 94%, 87%);
 }
 
+.hide, .monthsFree{
+    display: none;
+}
+.show{
+    display: block;
+}
+.span-yr{
+    color: hsl(213, 96%, 18%);
+}
+
 toggleButton{ 
     background-color: hsl(213, 96%, 18%);
     width: 40px; 
