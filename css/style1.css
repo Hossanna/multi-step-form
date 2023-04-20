@@ -300,6 +300,10 @@ input.checked{
     border: 2px solid hsl(213, 96%, 18%);
     background-color: rgb(245, 244, 244);
 }
+.box-toggle{
+    border: 2px solid hsl(213, 96%, 18%);
+    background-color: rgb(245, 244, 244);
+}
 
 .box img{
     width: 40%;

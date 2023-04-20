@@ -6,6 +6,7 @@ const boxes = document.querySelectorAll(".flexxx")
 const hide = document.querySelectorAll(".hide")
 const show = document.querySelectorAll(".show")
 const monthsFree = document.querySelectorAll(".monthsFree")
+const bigBoxes = document.querySelectorAll(".box")
 
 
 
@@ -52,3 +53,21 @@ function toggleSwitchTransformFunction() {
   }  
 }
 
+
+let prevOption = null
+
+for (i=0; i<=bigBoxes.length; i++){
+    bigBoxes[i].addEventListener("click", selectOption)
+}
+
+
+function selectOption(bigBoxes){
+  bigBoxes.target.classList.add("box-toggle")
+
+  if (prevOption !== null){
+    prevOption.classList.remove("box-toggle");
+  }
+
+  prevOption = bigBoxes.target;
+
+}
