@@ -71,12 +71,13 @@ toggleSwitchCircle {
 
 aside{
     width: 30%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 5% ;
     color: white;
     text-transform: uppercase;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 2%;
     background-image: url("../assets/images/bg-sidebar-desktop.svg");
 }
 
@@ -136,7 +137,7 @@ input::placeholder, main .info{
     color: white;
     padding: 5% 8% 4%;
     border-radius: 50%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: 1%;
 }
 .active{
